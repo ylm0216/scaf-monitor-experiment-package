@@ -1,0 +1,6 @@
+dataset: wordsforthewise/lending-club
+source: https://www.kaggle.com/datasets/wordsforthewise/lending-club/data
+time-field: issue_d
+target-field: loan_status
+protected-fields:
+  - annual_inc

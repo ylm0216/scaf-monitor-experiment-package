@@ -1,0 +1,8 @@
+dataset: taiwan-credit-default
+source: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+doi: 10.24432/C55S3H
+time-field: injected_sequence
+target-field: target
+protected-fields:
+  - SEX
+drift-mode: controlled-injection

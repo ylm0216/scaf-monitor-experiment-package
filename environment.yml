@@ -1,0 +1,6 @@
+name: scaf-monitor
+dependencies:
+  - python
+  - pip
+  - pip:
+      - -r requirements.txt

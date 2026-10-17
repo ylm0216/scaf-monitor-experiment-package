@@ -1,0 +1,9 @@
+﻿# Local and generated files
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Duplicate uncompressed LendingClub exports; compressed archives are tracked instead
+data/raw/lending-club/accepted_2007_to_2018q4.csv/
+data/raw/lending-club/rejected_2007_to_2018q4.csv/
